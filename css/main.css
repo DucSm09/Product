@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(203, 203, 203, 0.171);
+}
+#ban-app{
+    margin: 100px 0;
+}
+#ban-app a{
+    text-decoration: none;
+}
+#ban-app h3:hover{
+    color: red;
+    transition: 0.2s;
+}
+#ban-app a h3{
+    margin-bottom: 30px;
+}
+.acc{
+    margin-top: 70px;
+}

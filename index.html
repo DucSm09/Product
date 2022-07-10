@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/library.css">
+    <link rel="stylesheet" href="css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #header {
+            background-color: #dadada;
+            padding: 40px 10px;
+            color: black;
+            text-align: center;
+            font-size: 90px;
+            font-weight: bold;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            transition: 0.2s;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header">PRODUCT</div>
+    <div style="margin-top:200px;padding:15px 15px 2500px;">
+        <div class="banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-8">
+                        <h1>A product designer and developer, driven
+                            by meaningful work.</h1>
+                    </div>
+                </div>
+            </div>
+            <!-- banner -->
+            <section id="ban-app">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-4 acc">
+                            <a href="#">
+                                <p>Precision Run — mobile app</p>
+                                <h3>A running studio
+                                    companion app</h3>
+                            </a>
+                            <p>Book your classes for the latest treadmill-based fintess studio in Ho Chi Minh City</p>
+                        </div>
+                        <div class="col-6">
+                            <img src="img/running-app.png">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ban-app-1 -->
+            <section id="ban-app">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-8">
+                            <img src="img/pic-app2.png">
+                        </div>
+                        <div class="col-4 acc">
+                            <a href="#">
+                                <p>Phallaina — mobile app</p>
+                                <h3>Creating a unique
+                                    reading experience</h3>
+                            </a>
+                            <p>Phallaina is a singular app that breaks from the canonical graphic novel format by delivering a narrative scrolling experience.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ban-app-2 -->
+            <section id="ban-app">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-5 acc">
+                            <a href="#">
+                                <p>Art Institute of Chicago</p>
+                                <h3>A museum <br>
+                                    in the digital age</h3>
+                            </a>
+                            <p>Museums are unique physical spaces in such that they provide a very genuine experience: being in presence of art.</p>
+                        </div>
+                        <div class="col-6">
+                            <img src="img/pic-app3.png">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <main></main>
+            <footer></footer>
+            <script>
+                // When the user scrolls down 50px from the top of the document, resize the header's font size
+                window.onscroll = function () { scrollFunction() };
+
+                function scrollFunction() {
+                    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+                        document.getElementById("header").style.fontSize = "30px";
+                    } else {
+                        document.getElementById("header").style.fontSize = "70px";
+                    }
+                }
+            </script>
+</body>
+
+</html>
